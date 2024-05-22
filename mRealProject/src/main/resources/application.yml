@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  
+
+#DB연결
+spring:
+  datasource:
+    url: jdbc:mariadb://svc.sel5.cloudtype.app:32736/
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: mreal0521
+ 
+mybatis:
+ config-location: classpath:mybatis-config.xml
+ mapper-locations: classpath:mappers/*.xml
