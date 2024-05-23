@@ -1,4 +1,9 @@
 <script>
+import Test from './Test.vue'
+
+export default {
+  components: {Test}
+}
 
 </script>
 
@@ -6,6 +11,7 @@
   <div>
     <h1>Home</h1>
   </div>
+  <Test/>
 </template>
 
 <style scoped>
