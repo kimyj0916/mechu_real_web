@@ -24,10 +24,10 @@ export default {
 
 <template>
 	<div id="app">
-		<button :click="incrementCounter">증가</button>
-		<button :click="decrementCounter">감소</button>
-		<button :click="multiplyCounter">배수</button>
-		<button :click="init">초기화</button>
+		<button @click="incrementCounter">증가</button>
+		<button @click="decrementCounter">감소</button>
+		<button @click="multiplyCounter">배수</button>
+		<button @click="init">초기화</button>
 		<p>버튼 클릭시 늘어나는 숫자 : {{ counter == Infinity ? '값이 너무 큼' : counter }}</p>
 	</div>
 </template>
