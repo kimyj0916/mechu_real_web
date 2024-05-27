@@ -5,7 +5,7 @@ server:
 #DB연결
 spring:
   datasource:
-    url: jdbc:mariadb://svc.sel5.cloudtype.app:32736/
+    url: jdbc:mariadb://svc.sel5.cloudtype.app:32736/mreal
     driver-class-name: org.mariadb.jdbc.Driver
     username: root
     password: mreal0521
